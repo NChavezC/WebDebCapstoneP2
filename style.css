@@ -1,0 +1,14 @@
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 350px;
+}
+
+ul.unserious {  
+    list-style-type: none; 
+} 
+
+a {
+    text-decoration: none;
+}

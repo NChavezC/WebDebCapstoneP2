@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<section class="hero bg-dark">
+    <div class="container col-xxl-8 px-4 py-5 bg-dark text-white">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./assets/images/Cara_Batman.jpg" class="d-block mx-lg-auto img-fluid" alt="Cartoon Batman" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Gonzalo Chavez Cerda</h1>
+            <p class="lead">This is my personal page. In here you can find professional and personal data, including projects, interests and more. </p>
+          </div>
+        </div>
+      </div>
+</section>
+<section class="resume">
+    <div class="container col-xxl-8 px-4 py-5">
+        <h1 class="mb-5">Resume</h1>
+        <h3>Education</h3>
+        <ul>
+            <li>MA in Financial Management, Universidad de Concepción, 2013.</li>
+            <li>BA in Industrial Engineering, Universidad de Concepción, 2011.</li>
+        </ul>
+        <h3>Work Experience</h3>
+        <ul>
+            <li>Analyst, Evalueserve, 2023.</li>
+            <li>Online Data Analyst, Telus International, 2023.</li>
+            <li>Part-Time Professor, UNAB, 2023.</li>
+            <li>Full-Time Professor, Universidad San Sebastian, 2022.</li>
+            <li>Part-Time Professor, Universidad San Sebastian, 2019.</li>
+            <li>Part-Time Professor, Universidad de Concepción, 2017.</li>
+            <li>Project Engineer, Universidad de Concepción-ARAUCO, 2012.</li>
+        </ul>
+        <h3>Certifications</h3>
+        <ul>
+            <li>Python for Time Series Data Analysis, <a href="https://www.udemy.com/certificate/UC-69f45b42-f5ba-4b1e-9300-35ef951e6b47/">Udemy</a>.</li>
+            <li>Complete Tensorflow 2 and Keras Deep Learning Bootcamp, <a href="https://www.udemy.com/certificate/UC-92b25652-de96-4fd3-80e4-ff1402f578a0/">Udemy</a>.</li>
+            <li>Python for Machine Learning & Data Science Masterclass, <a href="https://www.udemy.com/certificate/UC-c56de80d-8f89-48d7-965b-120165aab954/">Udemy</a>.</li>
+            <li>The Complete Python Bootcamp From Zero to Hero in Python, <a href="https://www.udemy.com/certificate/UC-7fedc0e7-0135-4501-8478-3a678662d679/">Udemy</a>.</li>
+            <li>The Complete SQL Bootcamp: Go from Zero to Hero, <a href="https://www.udemy.com/certificate/UC-d0588f4f-d966-42cf-8109-e261bdb2bee9/">Udemy</a>.</li>
+            <li>Web Scraping in Python With BeautifulSoup and Selenium, <a href="https://www.udemy.com/certificate/UC-a6d08fd6-da78-4ac0-8cc9-78b1783c641d/">Udemy</a>.</li>
+            <li>Interactive Python Dashboards with Plotly and Dash, <a href="https://www.udemy.com/certificate/UC-a4dd46e7-65d8-4331-8814-fecaa42e03d1/">Udemy</a>.</li>
+    </div>
+</section>
+<section class="projects bg-dark">
+<div class="container col-xxl-8 px-4 py-5 bg-dark">
+    <h1 class="text-white mb-5">Projects</h1>
+    <div class="album bg-body-tertiary bg-dark">
+        <div class="container bg-dark">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 bg-dark align-items-stretch">
+
+            <div class="col">
+                <div class="card shadow-sm h-100">
+                  <img src="./assets/images/Inf_ARIMA.jpg" class="thumbnail card-img-top" alt="Time Series Graph">
+                  <div class="card-body">
+                    <h5>Chile's Inflation Forecast</h5>
+                    <p class="card-text">A univariate SARIMA model was used to forecast the monthly inflation in Chile, using data obtained from the FRED API (Federal Reserve Economic Data, St. Louis branch).</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/NChavezC/Forecast-SARIMA/blob/main/MACRO_CHILE_INFLATION_RATE.ipynb" class="btn btn-outline-secondary btn-sm active" role="button" aria-pressed="true">See Code</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/images/hist_hue.jpg" class="thumbnail card-img-top" alt="Histogram">
+                <div class="card-body">
+                  <h5>Twitter Sentiment Analysis</h5>
+                  <p class="card-text">Sentiment analysis is performed on a web scraped database of tweets.
+                    An original database of tweets from a celebrity is obtained via web scraping using Selenium, and the polarity of each tweet is analyzed to determine whether the tweet was positive, negative, or neutral, along with other statistics.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="https://github.com/NChavezC/Web_Scraping/blob/master/Twitter_Sentiment_Analysis.ipynb" class="btn btn-outline-secondary btn-sm active" role="button" aria-pressed="true">See Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <img src="./assets/images/DTree.jpg" class="thumbnail card-img-top" alt="Decision Tree Graph">
+                <div class="card-body">
+                  <h5>Customer Classification</h5>
+                  <p class="card-text">The "Telco Customer Churn" database from Kaggle and a Random Forest model were used to classify, based on individuals' characteristics, which customers have stopped using the services (Churn = Yes) versus those who have not (Churn = No).</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="https://github.com/NChavezC/Random-Forests/blob/master/Customer_Classification.ipynb" class="btn btn-outline-secondary btn-sm active" role="button" aria-pressed="true">See Code</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+<section class="about-me">
+    <div class="container col-xxl-8 px-4 py-5">
+        <h1 class="mb-5">About Me</h1>
+        <h3>Interests</h3>
+        <ul class="unserious">
+            <li>Music: I'm a bass player. I love to play and practice jazz. I like to listen to a lot of different music styles.</li>
+            <li>Chess: I play in chess.com and lichess. I'm aiming to grow 300 elo in 2024.</li>
+            <li>Cooking: I love to cook. For me, a special feeling in life is to learn to use a need spice.</li>
+            <li>Philosophy: I'm a philosophy nut, specially ethics (specifically normative and applied ethics).</li>
+            <li>Politics: I enjoy a good political discusion, local or worldwide.</li>
+        </ul>
+        <h3>Hobbies</h3>
+        <ul class="unserious">
+            <li>Reading: I enjoy a good book, fiction or non-fiction. The key is to read in different times of the day according to the type of book.</li>
+            <li>Design: I'm a fan of structure, so I'm a design enthusiast. I enjoy typographie and color theory.</li>
+            <li>Sports: I play soccer and bike.</li>
+
+        </ul>
+    </div>
+</section>
+<section class="contact bg-black">
+<div class="container col-xxl-8 px-4 py-5 text-white">
+    <h1 class="mb-5">Contact</h1>
+    <ul class="unserious">
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+          </svg>
+            Concepción, Región del Biobío, Chile.
+        </li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+          </svg> <a href="tel:56987689330">(56) 987-689-330</a></li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+          </svg> <a href="mailto:gchavez@fen.uchile.cl">gchavez@fen.uchile.cl</a></li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg> <a href="https://www.linkedin.com/in/gonzalo-ch%C3%A1vez-cerda-a04726114/">LinkedIn</a></li>
+    </ul>
+</div>
+</section>
+<div class="container col-xxl-8 px-4 py-5">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 NChavez</span>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
